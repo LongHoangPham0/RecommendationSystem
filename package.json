@@ -1,0 +1,24 @@
+{
+  "name": "rocka",
+  "version": "1.0.0",
+  "description": "Rocka Code Test",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js",
+    "ml": "node ml/collaborative-filtering.js"
+  },
+  "repository": {
+    "type": "git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://gitlab.com/infinito84/rocka/issues"
+  },
+  "homepage": "https://gitlab.com/infinito84/rocka#README",
+  "dependencies": {
+    "progress": "^2.0.3",
+    "socket.io": "^2.1.1"
+  }
+}

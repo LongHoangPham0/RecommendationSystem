@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Rocka Movies</title>
+    <link rel="stylesheet" href="/css/styles.css">
+  </head>
+  <body>
+    <nav>
+      <ul>
+        <li onclick="app.restart()">Restart</li>
+        <li onclick="app.sortA()">Sort Ascending Rating</li>
+        <li onclick="app.sortZ()">Sort Descending Rating</li>
+        <li onclick="app.userSuggestions()">Ver sugerencias</li>
+      </ul>
+    </nav>
+    <div id="app"></div>
+    <script src="/socket.io/socket.io.js"></script>
+    <script src="/js/app.js"></script>
+    <script src="/js/webcomponent/movie-card.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.0/normalize.min.css">
+  </body>
+</html>

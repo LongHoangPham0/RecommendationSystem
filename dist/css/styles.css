@@ -1,0 +1,22 @@
+/* colors from https://color.adobe.com/blue-bg--red-conductor-2-color-theme-10190690*/
+:root {
+    --color-soft: #A5CED9;
+    --color-bg: #110040;
+    --color-primary: #7F0E0C;
+    --color-secondary: #253B59;
+    --color-alternative: #253B59;
+}
+
+body, html{
+  margin: 0;
+  padding: 0;
+  background-color: var(--color-secondary);
+  font-family: sans-serif;
+}
+
+nav li{
+  color: var(--color-primary);
+  font-weight: bold;
+  font-size: 1.5em;
+  cursor: pointer;
+}
